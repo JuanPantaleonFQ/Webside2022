@@ -8,4 +8,18 @@ body{
 }
 
 /*nav bar*/
-/*Aqui pondremos la barra de navegacion que sera comun para varias pantallas*/
+
+.nav_bar_buttons {
+    margin-top: 20px;
+}
+
+.nav_bar_buttons button{
+    border-style: groove;
+    border-radius: 50px;
+    margin: 20px;        
+    width: 108px;
+    height: 41px;
+    left: 529px;
+    top: 576px;
+
+}
