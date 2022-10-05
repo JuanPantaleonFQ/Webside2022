@@ -1,0 +1,70 @@
+.landing_page{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;
+    font-family: lexend mega;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Codigo de lucas*/
+/*.imagen-social{ 
+    margin-left:auto;
+    margin-right:auto;     
+    height: 175px;
+    width:  176px;
+    left: calc(50%-175/2);
+    top: calc(50% - 175px/2 - 168.5px);                  
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    overflow:hidden;
+    
+
+}   
+.imagen-social img{
+    width:auto;
+    height:100%;
+    border-radius: 50%;
+}
+
+.button_grid{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+}
+
+.button_grid button{
+    padding:10px;
+    border-radius: 20px;
+    margin:10px;
+}
+
+#ga{
+    margin-left:auto;
+}
+#go{
+    margin-right:auto;
+}*/
