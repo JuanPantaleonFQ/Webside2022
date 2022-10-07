@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="CSS/landing_page/social.css">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@300&display=swap" rel="stylesheet">
     <script src="/js/top-buttons-scrips/top-buttons.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Home page</title>
 </head>
 <body>
-    <div class="landing_page">
+    <div class="landing_page">   
+        
         <div class="top-buttons">
             <div id="night-day-button">
                 <img  alt="luna">
@@ -22,13 +24,13 @@
             <button id="lenguaje-button">English</button>
         </div>
         
-        <div class="social_display">
-            <img src="media/yo.png" alt="">
-            <img src="media/logos/cv.png" alt="">
-            <img src="media/logos/github.png" alt="">
-            <img src="media/logos/linkdn.png" alt="">
-            <img src="media/logos/telegram.png" alt="">
-    
+        <div id="imgContainer" class="social_display">
+            <img id="grande"style="position: relative;" src="media/yo.png" alt="">
+            <img id="1"class="socialIcons" src="media/logos/cv.png" alt="">
+            <img class="socialIcons" src="media/logos/github.png" alt="">
+            <img class="socialIcons" src="media/logos/linkdn.png" alt="">
+            <img class="socialIcons" src="media/logos/telegram.png" alt="">
+
         </div>
         <div class="nav_bar_buttons">
             <button id="aboutme_button">About me</button>
@@ -41,4 +43,5 @@
     </div>
     
 </body>
+<script src="/js/top-buttons-scrips/socials.js"></script>
 </html>

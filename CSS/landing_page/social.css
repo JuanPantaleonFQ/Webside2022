@@ -7,9 +7,20 @@
     align-items: center;
 }
 
+.social_display{
+    position: relative;
+    
+}
 
+.social_display img{
+    position: absolute;
+    z-index: -1;
 
+}
 
+#grande{
+    z-index: 20;
+}
 
 
 
