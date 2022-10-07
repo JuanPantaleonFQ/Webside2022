@@ -14,7 +14,7 @@
             if(radius < 40){
                 radius += 3;
             }
-    }, 10);
+    }, 15);
     })
     
     //numberOfPoints = 360;

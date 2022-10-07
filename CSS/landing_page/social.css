@@ -18,7 +18,13 @@
 
 }
 
-#grande{
+.socialIcons{
+    height: 50px;
+    width:  50px;
+
+}
+
+#myImage{
     z-index: 20;
 }
 
