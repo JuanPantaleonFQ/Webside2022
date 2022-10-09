@@ -1,3 +1,5 @@
+$( document ).ready(function() {
+    
     const height = $("#imgContainer").outerHeight(true)/2; 
     const width =  $("#imgContainer").outerWidth(true)/2;
     const socialIconss = $(".socialIcons");
@@ -17,7 +19,7 @@
     }, 15);
     })
     
-    //numberOfPoints = 360;
+    //numberOfPoints = 360;  --Codigo que recrea un circulo gracias a la funcion 
     //for(var i=0; i <= numberOfPoints; i++){
     //    var position = socialIcons(i);
     //    var point = document.createElement("div");
@@ -40,6 +42,11 @@
         var position = x +"px,"+y+"px";
         return position;     
     }
+
+    //Document.getElementById("header").onclick = function() {
+    //    window.location='...'; 
+    //}
+});
 
 
 

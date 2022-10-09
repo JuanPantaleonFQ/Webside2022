@@ -21,12 +21,15 @@
 .socialIcons{
     height: 50px;
     width:  50px;
-
+}
+.socialIcons:hover{
+    cursor: pointer;
 }
 
 #myImage{
     z-index: 20;
 }
+
 
 
 
